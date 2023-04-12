@@ -1,9 +1,11 @@
 # Direct Clustering Algorithm
 
-# examples
-m = matrix(c(1,1,0,1,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,1),nrow = 6, ncol = 5)
-m = matrix(c(1,1,0,1,0,0,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1,0,0,1,0,0,1,0,0,1),nrow = 6, ncol = 5)
-m = read.csv("C:/Users/Hamza/Documents/Facilities planning/part.machine.csv", sep = ";", header = FALSE)
+# # examples
+# m = matrix(c(1,1,0,1,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,1),nrow = 6, ncol = 5)
+# # Example 2
+# m = matrix(c(1,1,0,1,0,0,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1,0,0,1,0,0,1,0,0,1),nrow = 6, ncol = 5)
+# Example 3
+m = read.csv("part.machine.csv", sep = ";", header = FALSE)
 
 m = data.frame(m)
 
