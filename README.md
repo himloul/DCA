@@ -8,26 +8,6 @@
   
 The DCA algorithm, also known as the "Direct Cluster Algorithm," is a method used in cellular manufacturing to create clusters of machines and parts that are optimally arranged to minimize material handling and increase productivity. Here is a rewritten version of the algorithm:
 
-**Step 1: Order the rows and columns.**
-
-Sum the number of 1s in each column and row of the machine-part matrix.  
-Sort the rows in descending order of the number of 1s in each row.  
-Sort the columns in ascending order of the number of 1s in each column.  
-In case of a tie, break the tie in descending numerical sequence.
-
-**Step 2: Sort the columns.**
-
-Starting with the first row, shift to the left of the matrix all columns that have a 1 in that row.  
-Continue this process row by row until no further opportunities exist for shifting columns.
-
-**Step 3: Sort the rows.**
-
-Starting with the leftmost column, shift rows upward when opportunities exist to form blocks of 1s.  
-The column and row sortation can be facilitated using spreadsheets such as MS Excel.
-
-**Step 4: Form cells.**
-
-Look for opportunities to form cells such that all processing for each part occurs in a single cell.
 
 ## Usage
 
